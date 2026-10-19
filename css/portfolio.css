@@ -1,0 +1,22 @@
+/* Portfolio additions on top of the Creative theme */
+.kpi-num { font-family: 'Merriweather', serif; font-size: 2.6rem; font-weight: 700; color: #F05F40; line-height: 1.1; }
+.kpi-num small { font-size: 1rem; margin-left: 4px; color: #212529; }
+.kpi-label { font-size: .85rem; color: #868e96; margin-top: 6px; }
+.impact-list { list-style: none; padding: 0; }
+.impact-list li { padding: 12px 0; border-bottom: 1px solid #e9ecef; }
+.impact-list strong { color: #F05F40; margin-right: 8px; }
+.timeline { max-width: 900px; margin: 0 auto; border-left: 3px solid #F05F40; padding-left: 28px; }
+.timeline-item { position: relative; margin-bottom: 40px; }
+.timeline-item::before { content: ''; position: absolute; left: -38px; top: 6px; width: 15px; height: 15px; border-radius: 50%; background: #F05F40; border: 3px solid #fff; }
+.timeline-period { font-size: .85rem; color: #868e96; letter-spacing: .05em; }
+.timeline-company { font-size: 1.4rem; margin: 4px 0 14px; }
+.timeline-role { font-size: .9rem; font-weight: 400; color: #F05F40; margin-left: 8px; }
+.project-card { background: #fff; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.08); padding: 18px 22px; margin-bottom: 14px; }
+.project-card h4 { font-size: 1.1rem; margin-bottom: 2px; }
+.project-period { font-size: .8rem; color: #868e96; margin-bottom: 10px; }
+.project-card ul { padding-left: 18px; margin-bottom: 8px; font-size: .95rem; }
+.project-card li { margin-bottom: 4px; }
+.lesson { font-size: .85rem; color: #495057; background: #fff6f3; border-left: 3px solid #F05F40; padding: 8px 12px; margin: 8px 0 0; }
+.skill-list { margin-top: 10px; }
+.skill-chip { display: inline-block; margin: 4px; padding: 6px 16px; border: 1px solid #F05F40; color: #F05F40; border-radius: 20px; font-size: .9rem; }
+@media (max-width: 575px) { .timeline { padding-left: 20px; } .timeline-item::before { left: -30px; } }
