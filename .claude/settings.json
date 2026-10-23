@@ -3,6 +3,7 @@
     "defaultMode": "acceptEdits",
     "allow": [
       "mcp__Notion",
+      "mcp__Figma",
       "mcp__Google_Drive__read_file_content",
       "mcp__Google_Drive__download_file_content"
     ]
